@@ -17,7 +17,7 @@
 ```bash
 # Clone repo
 git clone https://github.com/yourusername/floatchat.git
-cd floatchat
+cd FloatChatV2
 
 # Install dependencies
 pip install -r requirements.txt
