@@ -66,7 +66,7 @@
 
 
 
-
+import os,sys
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from io import StringIO
@@ -74,6 +74,7 @@ from typing import Dict, Any, List, Tuple
 import pandas as pd
 from pydantic import BaseModel
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import selection
 from llm import llm_handler
 
