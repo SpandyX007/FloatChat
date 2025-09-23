@@ -17,7 +17,19 @@
 ```bash
 # Clone repo
 git clone https://github.com/yourusername/floatchat.git
-cd FloatChatV2
+
+# Create Python Virtual Environment
+python -m venv .venv
+(activate it)
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Change Dir to Frontend and execute the following:
+cd frontend_react
+npm i
+npm run dev
+
+# Change Dir to Backend and Execute the Following (venv activated):
+cd backend
+uvicorn main:app --reload
