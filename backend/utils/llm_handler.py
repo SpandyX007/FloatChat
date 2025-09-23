@@ -76,7 +76,7 @@ load_dotenv()
 
 # Configure Gemini API
 # api_key = os.getenv("GEMINI_API_KEY")
-api_key = "AIzaSyAgOz-ClIoOgy9mrO4VJ1g23bSMDkwQcvQ"
+api_key = "apna_api"
 if not api_key:
     raise RuntimeError("GEMINI_API_KEY not set in environment")
 genai.configure(api_key=api_key)
@@ -140,5 +140,6 @@ def process_response(response: Any) -> Dict[str, Any]:
     response = model.generate_content(prompt)
     
     return response.text.strip() if hasattr(response, "text") else ""
+
 
 # process_response(df)
