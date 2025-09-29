@@ -30,6 +30,10 @@ cd frontend_react
 npm i
 npm run dev
 
+# For Streamlit UI. run the following commands
+cd frontend
+streamlit run streamlit_app_Version3
+
 # Change Dir to Backend and Execute the Following (venv activated):
 cd backend
 uvicorn main:app --reload
