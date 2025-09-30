@@ -5,11 +5,11 @@
 ---
 
 ## 🚀 Features
-- 📡 **Argo Float Data Access** – Fetch and parse float `.nc` and `.meta` files directly from Ifremer or USGODAE servers.  
-- 🔍 **Metadata Explorer** – Inspect float configuration, sensors, deployment details.  
-- 📊 **Profile Viewer** – Extract BGC (Biogeochemical) and CTD profiles into pandas DataFrames.  
-- 💬 **Chat Interface** – Ask natural-language questions about float data and get structured responses.  
-- 🔗 **Extensible** – Easily plug into Jupyter, Streamlit, or API services.  
+- **Argo Float Data Access** – Fetch and parse float `.nc` and `.meta` files directly from Ifremer or USGODAE servers.  
+- **Metadata Explorer** – Inspect float configuration, sensors, deployment details.  
+- **Profile Viewer** – Extract BGC (Biogeochemical) and CTD profiles into pandas DataFrames.  
+- **Chat Interface** – Ask natural-language questions about float data and get structured responses.  
+- **Extensible** – Easily plug into Jupyter, Streamlit, or API services.  
 
 ---
 
