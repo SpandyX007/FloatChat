@@ -1,0 +1,5 @@
+{
+  "name": "FloatChat",
+  "description": "A minimalist UI for a data insight and chat application. It features a collapsible sidebar, a central insight panel with expandable modules for charts, maps, text analysis, and data tables, and a dedicated chat interface.",
+  "requestFramePermissions": []
+}
