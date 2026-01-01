@@ -18,6 +18,10 @@
 # Clone repo
 git clone https://github.com/yourusername/floatchat.git
 
+# Download grid sampled data from the link below
+https://drive.google.com/file/d/1kdXAZRrO76pk9oqNpqKeUW9nN8MTm7Yq/view?usp=sharing
+# Paste it in backend_react/utils folder
+
 # Create Python Virtual Environment
 python -m venv .venv
 (activate it)
