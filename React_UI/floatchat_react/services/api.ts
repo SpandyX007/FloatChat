@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://guileless-nonpervertible-ai.ngrok-free.dev";
 
 export interface QueryRequest {
   query: string;
@@ -63,3 +63,4 @@ class APIService {
 }
 
 export const apiService = new APIService();
+
